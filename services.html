@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<script>
+        function read(){
+            var n=document.getElementById("name").value;
+            console.log(n);
+            var r=document.getElementById("rno").value;
+            console.log(r);
+            var a=document.getElementById("adno").value;
+            console.log(a);
+            var g=document.getElementById("gndr").value;
+            console.log(g);
+            var d=document.getElementById("district").value;
+            console.log(d);
+            var c=document.getElementById("clg").value;
+            console.log(c);
+            var u=document.getElementById("uname").value;
+            console.log(u);
+            var p=document.getElementById("passwd").value;
+            console.log(p);
+            var e=document.getElementById("cpasswd").value;
+            console.log(e);
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        
+     <div class="container">
+                <div class="row">
+                  <div class="col col-12 col-sm-4"></div>
+                  <div class="col col-12 col-sm-4"> 
+                   <form>
+                        <h1 align="center">REGISTER HERE</h1>
+                    <table class="table">
+                        <tr>
+                            <td>Name</td>
+                            <td><input type="text" id="name"></td>
+                        </tr>
+                        <tr>
+                            <td>Roll No</td>
+                            <td><input type="text" id="rno"></td>
+                        </tr>
+                        <tr>
+                            <td>Admission No</td>
+                            <td><input type="text" id="adno"></td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td>
+                                <select id="gndr">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>District</td>
+                            <td>
+                                <select id="district">
+                                    <option>Kasargod</option>
+                                    <option>Kannur</option>
+                                    <option>Wayanad</option>
+                                    <option>Kozhikode</option>
+                                    <option>Malappuram</option>
+                                    <option>Thrissur</option>
+                                    <option>Palakkad</option>
+                                    <option>Ernakulam</option>
+                                    <option>Idukki</option>
+                                    <option>Alappuzha</option>
+                                    <option>Pathanamthitta</option>
+                                    <option>Kollam</option>
+                                    <option>Kottayam</option>
+                                    <option>Trivandrum</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>College</td>
+                            <td><input type="text" id="clg"></td>
+                        </tr>
+                        <tr>
+                            <td>User name</td>
+                            <td><input type="text" id="uname"></td>
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td><input type="password" id="passwd"></td>
+                        </tr>
+                        <tr>
+                            <td>Confirm Password</td>
+                            <td><input type="password" id="cpasswd"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button type="button" onclick="read();" class="btn btn-danger">REGISTER</button></td>
+                        </tr>
+                    </table>
+                </form> 
+                    </div>
+
+                    <div class="col col-12 col-sm-4"></div>
+                  </div>
+              </div>
+</body>
+</html>
